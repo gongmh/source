@@ -1,0 +1,31 @@
+version: 1
+creator: xdebug 2.3.3
+cmd: /home/gongmh/phpTest/test.php
+part: 1
+positions: line
+
+events: Time
+
+fl=(1) /home/gongmh/phpTest/abc.php
+fn=(1) require_once::/home/gongmh/phpTest/abc.php
+1 18
+
+fl=(2) /home/gongmh/phpTest/test.php
+fn=(2) testXdebug
+3 103
+cfl=(1)
+cfn=(1)
+calls=1 0 0
+4 18
+
+fl=(2)
+fn=(3) {main}
+
+summary: 144
+
+1 22
+cfl=(2)
+cfn=(2)
+calls=1 0 0
+2 122
+
